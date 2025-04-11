@@ -30,8 +30,8 @@ npm install
 node index.js  
 The server will start, and you can access the app at http://localhost:3000.  
 
-4. Check the Pumpkin Spice status
-Open the app in your browser and click "Check Now" to see if Pumpkin Spice is on the menu.
+4. Check the Pumpkin Spice status  
+Open the app in your browser and click "Check Now" to see if Pumpkin Spice is on the menu.  
 
 * May have to update the url if the webpage is no longer available.
 
