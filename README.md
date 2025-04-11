@@ -1,12 +1,12 @@
-🎃 Starbucks Pumpkin Spice Checker
+🎃 Starbucks Pumpkin Spice Checker  
 This web app lets you know when Starbucks has Pumpkin Spice (PSL) on their menu. The app scrapes the Starbucks menu page and checks for mentions of "Pumpkin Spice" or "PSL". If it's available, you'll get a friendly notification in your browser!
 
-🚀 Features
-Frontend: A simple UI to manually check if Pumpkin Spice is on the menu.
+🚀 Features  
+Frontend: A simple UI to manually check if Pumpkin Spice is on the menu.  
 
-Backend: Scrapes the Starbucks menu page for "Pumpkin Spice".
+Backend: Scrapes the Starbucks menu page for "Pumpkin Spice".  
 
-Real-time Updates: See the result instantly on the page with a clickable button.
+Real-time Updates: See the result instantly on the page with a clickable button.  
 
 📦 Tech Stack
 Frontend: HTML, CSS, JavaScript
