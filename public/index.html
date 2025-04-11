@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎃 PSL Checker</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    button { padding: 10px 20px; font-size: 1.2rem; }
+    #result { margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🎃 Pumpkin Spice Latte Checker</h1>
+  <button onclick="checkPumpkin()">Check Now</button>
+  <div id="result">Waiting to check...</div>
+
+  <script>
+    async function checkPumpkin() {
+      const res = await fetch('/check');
+      const data = await res.json();
+      document.getElementById('result').textContent = data.message;
+    }
+  </script>
+</body>
+</html>
